@@ -1,0 +1,968 @@
+[
+  {
+    "id": "caption-extension",
+    "title": "Caption creation extension",
+    "selected": true,
+    "categories": [
+      "ai-automations",
+      "workflow-tooling"
+    ],
+    "image": "images/caption-placeholder.png",
+    "imageAlt": "Illustrative caption editor with cyan and magenta captions over a mountain scene",
+    "imageCaption": "Concept image · AI-generated placeholder",
+    "wideImage": false,
+    "description": "From transcription to client-ready captions, in over 20 styles.",
+    "body": "",
+    "metrics": "10,000+ assets · Up to 95% less manual work",
+    "technologies": [
+      "JavaScript",
+      "Adobe CEP",
+      "ElevenLabs",
+      "n8n"
+    ],
+    "details": [
+      {
+        "heading": "The problem",
+        "text": "Creative teams needed to produce captions in a growing range of client styles, without repeating the same manual setup for every asset."
+      },
+      {
+        "heading": "What I built",
+        "text": "An After Effects extension combining ElevenLabs transcription and n8n workflow proofing, with tools for editing, animating and colouring captions. The extension has supported over 10,000 assets and enabled around 20 times the output capacity."
+      },
+      {
+        "heading": "Making it adaptable",
+        "text": "I designed the latest version around centrally stored style information. New client styles, including complex effects and animations, could be introduced without users constantly reinstalling the tool."
+      },
+      {
+        "heading": "Working around a technical limit",
+        "text": "After Effects provides the bounding box for a whole text block, rather than the individual line widths needed for caption backers. I devised a recursive binary-search approach to find text boundaries on each frame, supporting individual line measurements and word-by-word animation."
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "reframing-pipeline",
+    "title": "Automated reframing pipeline",
+    "selected": true,
+    "categories": [
+      "ai-automations",
+      "workflow-tooling"
+    ],
+    "image": "images/reframe-placeholder.png",
+    "imageAlt": "Illustrative cyan and magenta artwork shown in landscape, square and portrait formats",
+    "imageCaption": "Concept image · AI-generated placeholder",
+    "wideImage": false,
+    "description": "Turning client graphics into production-ready assets.",
+    "body": "",
+    "metrics": "",
+    "technologies": [
+      "Python",
+      "AI workflows",
+      "Automation"
+    ],
+    "details": [
+      {
+        "heading": "The workflow",
+        "text": "I built a skill and script pipeline that automated the construction of reframed assets with client-provided graphics."
+      },
+      {
+        "heading": "The aim",
+        "text": "Reduce repetitive production work while accommodating the different formats required for delivery, including square, portrait and 4:5 assets."
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "vfx-post-production",
+    "title": "VFX and post-production",
+    "selected": true,
+    "categories": [
+      "3d",
+      "vfx"
+    ],
+    "image": "images/vfx-placeholder.png",
+    "imageAlt": "Illustrative stone ring and floating spheres illuminated in cyan and magenta",
+    "imageCaption": "Concept image · AI-generated placeholder, not portfolio work",
+    "wideImage": true,
+    "description": "Compositing, animation and production experience.",
+    "body": "Over 14 years across media production, from VFX and editing to colour grading, technical management and delivery.",
+    "metrics": "",
+    "technologies": [
+      "After Effects",
+      "Blender",
+      "Production pipelines"
+    ],
+    "details": [],
+    "links": [
+      {
+        "label": "Watch my showreel",
+        "url": "https://youtu.be/v5lc6JCKFyw"
+      },
+      {
+        "label": "Explore ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects"
+      }
+    ]
+  },
+  {
+    "id": "interactive-p5-sketch",
+    "title": "Interactive p5.js demo",
+    "selected": false,
+    "categories": [],
+    "description": "A sample interactive p5.js sketch — included to demonstrate embedded canvases.",
+    "technologies": [
+      "JavaScript",
+      "p5.js"
+    ],
+    "maxHeight": "min(520px, 65svh)",
+    "media": [
+      {
+        "type": "p5",
+        "src": "sketches/demo/index.html",
+        "title": "Interactive p5.js demo",
+        "aspectRatio": "4/3",
+        "maxHeight": 450,
+        "caption": "Sample sketch — replace this with your own work."
+      }
+    ]
+  },
+  {
+    "id": "artstation-temple",
+    "title": "Temple",
+    "selected": false,
+    "categories": [
+      "3d",
+      "vfx"
+    ],
+    "image": "images/artstation/artstation-temple-01.webp",
+    "imageAlt": "Full render of Temple",
+    "imageCaption": "",
+    "wideImage": false,
+    "description": "An ancient alien temple, abandoned but still holding enormous power and mystery.",
+    "body": "Created in Blender, with compositing in After Effects.",
+    "metrics": "",
+    "technologies": [
+      "Blender",
+      "After Effects"
+    ],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/2qxGle"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-temple-01.webp",
+        "alt": "Full Temple render",
+        "caption": "Full render",
+        "width": 1440,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-temple-02.webp",
+        "alt": "First close-up of Temple",
+        "caption": "Close-up 1",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-temple-03.webp",
+        "alt": "Second close-up of Temple",
+        "caption": "Close-up 2",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-temple-04.webp",
+        "alt": "Temple MatCap viewport render",
+        "caption": "MatCap render",
+        "width": 1440,
+        "height": 1800
+      }
+    ]
+  },
+  {
+    "id": "artstation-penguin",
+    "title": "Penguin",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-penguin-01.webp",
+    "imageAlt": "Penguin render",
+    "imageCaption": "Penguin render",
+    "wideImage": false,
+    "description": "A render for a weekly colour challenge, using cool grey.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/naWbO"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-penguin-01.webp",
+        "alt": "Penguin render",
+        "caption": "Penguin render",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-penguin-02.webp",
+        "alt": "Work-in-progress strip",
+        "caption": "Work-in-progress strip",
+        "width": 396,
+        "height": 1800
+      }
+    ]
+  },
+  {
+    "id": "artstation-p9-headphones",
+    "title": "Bowers and Wilkins P9 Signature",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-p9-headphones-01.webp",
+    "imageAlt": "Headphone render",
+    "imageCaption": "Headphone render",
+    "wideImage": false,
+    "description": "A modelling and rendering exercise using a borrowed pair of headphones as a physical reference.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/AVk3m"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-p9-headphones-01.webp",
+        "alt": "Headphone render",
+        "caption": "Headphone render",
+        "width": 1000,
+        "height": 1500
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-p9-headphones-02.webp",
+        "alt": "Unrendered model",
+        "caption": "Unrendered model",
+        "width": 1000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": "artstation-dispersion-shader",
+    "title": "Better Dispersion Shader",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-dispersion-shader-01.webp",
+    "imageAlt": "Dispersion shader test",
+    "imageCaption": "Dispersion shader test",
+    "wideImage": false,
+    "description": "A Blender Cycles dispersion shader using a 13-colour split for smoother results than a three-colour approach.",
+    "body": "",
+    "metrics": "",
+    "technologies": [
+      "Blender",
+      "Cycles"
+    ],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/vn4Ed"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-dispersion-shader-01.webp",
+        "alt": "Dispersion shader test",
+        "caption": "Dispersion shader test",
+        "width": 1800,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-dispersion-shader-02.webp",
+        "alt": "Shader node setup",
+        "caption": "Shader node setup",
+        "width": 1206,
+        "height": 909
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-dispersion-shader-03.webp",
+        "alt": "Dispersion shader comparison",
+        "caption": "Dispersion shader comparison",
+        "width": 1800,
+        "height": 1005
+      }
+    ]
+  },
+  {
+    "id": "artstation-everydays",
+    "title": "A short series of Everydays",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-everydays-01.webp",
+    "imageAlt": "Everydays — 2 November 2017",
+    "imageCaption": "Everydays — 2 November 2017",
+    "wideImage": false,
+    "description": "Five favourite renders from a short daily rendering challenge.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/9G1ZN"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-everydays-01.webp",
+        "alt": "Everydays — 2 November 2017",
+        "caption": "Everydays — 2 November 2017",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-everydays-02.webp",
+        "alt": "Everydays — 4 November 2017",
+        "caption": "Everydays — 4 November 2017",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-everydays-03.webp",
+        "alt": "Everydays — 6 November 2017",
+        "caption": "Everydays — 6 November 2017",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-everydays-04.webp",
+        "alt": "Everydays — 5 November 2017",
+        "caption": "Everydays — 5 November 2017",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-everydays-05.webp",
+        "alt": "Everydays — 3 November 2017",
+        "caption": "Everydays — 3 November 2017",
+        "width": 1800,
+        "height": 1013
+      }
+    ]
+  },
+  {
+    "id": "artstation-robot-lighting",
+    "title": "Robot lighting and composition exercises",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-robot-lighting-01.webp",
+    "imageAlt": "Lighting and composition study 1",
+    "imageCaption": "Lighting and composition study 1",
+    "wideImage": false,
+    "description": "Studies in creating mood through lighting and composition, using mannequin and robot models.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/AVv65"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-lighting-01.webp",
+        "alt": "Lighting and composition study 1",
+        "caption": "Lighting and composition study 1",
+        "width": 1170,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-lighting-02.webp",
+        "alt": "Composition inspired by classical painting",
+        "caption": "Composition inspired by classical painting",
+        "width": 1800,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-lighting-03.webp",
+        "alt": "Lighting and composition study 3",
+        "caption": "Lighting and composition study 3",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-lighting-04.webp",
+        "alt": "Lighting and composition study 4",
+        "caption": "Lighting and composition study 4",
+        "width": 1200,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-lighting-05.webp",
+        "alt": "Lighting and composition study 5",
+        "caption": "Lighting and composition study 5",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-lighting-06.webp",
+        "alt": "Robot model for lighting studies",
+        "caption": "Robot model for lighting studies",
+        "width": 1800,
+        "height": 1800
+      }
+    ]
+  },
+  {
+    "id": "artstation-bass-guitar",
+    "title": "Bass Guitar",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-bass-guitar-01.webp",
+    "imageAlt": "Bass guitar — view 1",
+    "imageCaption": "Bass guitar — view 1",
+    "wideImage": false,
+    "description": "A precision modelling exercise based on my bass guitar, measured using digital callipers.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/rxWXG"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-bass-guitar-01.webp",
+        "alt": "Bass guitar — view 1",
+        "caption": "Bass guitar — view 1",
+        "width": 1350,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-bass-guitar-02.webp",
+        "alt": "Bass guitar — view 2",
+        "caption": "Bass guitar — view 2",
+        "width": 1350,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-bass-guitar-03.webp",
+        "alt": "Bass guitar — view 3",
+        "caption": "Bass guitar — view 3",
+        "width": 1350,
+        "height": 1800
+      }
+    ]
+  },
+  {
+    "id": "artstation-robot-mascot",
+    "title": "Robot Mascot",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-robot-mascot-01.webp",
+    "imageAlt": "Robot mascot — pose 1",
+    "imageCaption": "Robot mascot — pose 1",
+    "wideImage": false,
+    "description": "A client concept for a robot mascot for a school specialising in STEM.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/8215q"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-mascot-01.webp",
+        "alt": "Robot mascot — pose 1",
+        "caption": "Robot mascot — pose 1",
+        "width": 1350,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-mascot-02.webp",
+        "alt": "Robot mascot — pose 2",
+        "caption": "Robot mascot — pose 2",
+        "width": 1350,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-mascot-03.webp",
+        "alt": "Robot mascot — pose 3",
+        "caption": "Robot mascot — pose 3",
+        "width": 1350,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-mascot-04.webp",
+        "alt": "Robot mascot — pose 4",
+        "caption": "Robot mascot — pose 4",
+        "width": 1350,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-mascot-05.webp",
+        "alt": "Robot mascot — pose 5",
+        "caption": "Robot mascot — pose 5",
+        "width": 1800,
+        "height": 1406
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-robot-mascot-06.webp",
+        "alt": "Original 2D concept",
+        "caption": "Original 2D concept",
+        "width": 1350,
+        "height": 1800
+      }
+    ]
+  },
+  {
+    "id": "artstation-iphone-x",
+    "title": "iPhone X",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-iphone-x-01.webp",
+    "imageAlt": "iPhone X model and render",
+    "imageCaption": "iPhone X model and render",
+    "wideImage": false,
+    "description": "A phone modelling exercise using online plans and photographs as references.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/XyGO3"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-iphone-x-01.webp",
+        "alt": "iPhone X model and render",
+        "caption": "iPhone X model and render",
+        "width": 1800,
+        "height": 1800
+      }
+    ]
+  },
+  {
+    "id": "artstation-diamonds",
+    "title": "Diamonds",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-diamonds-01.webp",
+    "imageAlt": "Diamond dispersion render",
+    "imageCaption": "Diamond dispersion render",
+    "wideImage": false,
+    "description": "Diamond renders testing my dispersion shader, with a reusable library of 25 different cuts.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/0NBeY"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-diamonds-01.webp",
+        "alt": "Diamond dispersion render",
+        "caption": "Diamond dispersion render",
+        "width": 1800,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-diamonds-02.webp",
+        "alt": "Diamond design render",
+        "caption": "Diamond design render",
+        "width": 1800,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-diamonds-03.webp",
+        "alt": "Library of 25 diamond cuts",
+        "caption": "Library of 25 diamond cuts",
+        "width": 1800,
+        "height": 1800
+      }
+    ]
+  },
+  {
+    "id": "artstation-toolzilla",
+    "title": "Toolzilla Staplegun",
+    "selected": false,
+    "categories": [],
+    "image": "images/artstation/artstation-toolzilla-01.webp",
+    "imageAlt": "Toolzilla instructional video — still",
+    "imageCaption": "Toolzilla instructional video — still",
+    "wideImage": false,
+    "description": "A short instructional video for the Toolzilla 3-in-1 staplegun.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/q4OEn"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-toolzilla-01.webp",
+        "alt": "Toolzilla instructional video — still",
+        "caption": "Toolzilla instructional video — still",
+        "width": 1800,
+        "height": 1800
+      },
+      {
+        "type": "youtube",
+        "videoId": "D-EhqDW1d3s",
+        "title": "TOOLZILLA TZ31PRO Instructional Video",
+        "caption": "Toolzilla TZ31PRO instructional video"
+      }
+    ]
+  },
+  {
+    "id": "artstation-alphasense",
+    "title": "Alphasense",
+    "selected": false,
+    "categories": [],
+    "image": "images/artstation/artstation-alphasense-01.webp",
+    "imageAlt": "Alphasense advertising material 1",
+    "imageCaption": "Alphasense advertising material 1",
+    "wideImage": false,
+    "description": "Advertising materials for Alphasense, produced with Honest Ideas.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/gYoqQ"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-alphasense-01.webp",
+        "alt": "Alphasense advertising material 1",
+        "caption": "Alphasense advertising material 1",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-alphasense-02.webp",
+        "alt": "Alphasense advertising material 2",
+        "caption": "Alphasense advertising material 2",
+        "width": 1800,
+        "height": 707
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-alphasense-03.webp",
+        "alt": "Alphasense magazine cover",
+        "caption": "Alphasense magazine cover",
+        "width": 1800,
+        "height": 1297
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-alphasense-04.webp",
+        "alt": "Alphasense advertising material 4",
+        "caption": "Alphasense advertising material 4",
+        "width": 1345,
+        "height": 1800
+      }
+    ]
+  },
+  {
+    "id": "artstation-toy-character-designs",
+    "title": "Toy character advert designs",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-toy-character-designs-01.webp",
+    "imageAlt": "Toy character design 1",
+    "imageCaption": "Toy character design 1",
+    "wideImage": false,
+    "description": "Character designs created for a client commercial in 2016.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/Bg9Ol"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-toy-character-designs-01.webp",
+        "alt": "Toy character design 1",
+        "caption": "Toy character design 1",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-toy-character-designs-02.webp",
+        "alt": "Toy character design 2",
+        "caption": "Toy character design 2",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-toy-character-designs-03.webp",
+        "alt": "Toy character design 3",
+        "caption": "Toy character design 3",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-toy-character-designs-04.webp",
+        "alt": "Toy character design 4",
+        "caption": "Toy character design 4",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-toy-character-designs-05.webp",
+        "alt": "Toy character design 5",
+        "caption": "Toy character design 5",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-toy-character-designs-06.webp",
+        "alt": "Toy character design 6",
+        "caption": "Toy character design 6",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-toy-character-designs-07.webp",
+        "alt": "Toy character design 7",
+        "caption": "Toy character design 7",
+        "width": 1350,
+        "height": 1800
+      }
+    ]
+  },
+  {
+    "id": "artstation-phone-insurance",
+    "title": "Mock Phone Insurance Idea",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-phone-insurance-01.webp",
+    "imageAlt": "Marble material test using the SMK museum scan of Aphrodite of Milos",
+    "imageCaption": "Statue model: SMK museum 3D scan",
+    "wideImage": false,
+    "description": "A speculative phone insurance concept combining a classical statue with a modelled Samsung Galaxy S8.",
+    "body": "I modelled the phone myself. The statue uses an SMK museum scan of Aphrodite of Milos.",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/82r2x"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-phone-insurance-01.webp",
+        "alt": "Aphrodite of Milos marble material test",
+        "caption": "Marble material test. Statue model: SMK museum scan.",
+        "width": 1200,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-phone-insurance-02.webp",
+        "alt": "Model and render of Samsung Galaxy S8",
+        "caption": "Samsung Galaxy S8 model and render",
+        "width": 1800,
+        "height": 1800
+      },
+      {
+        "type": "youtube",
+        "videoId": "CFsXjvUaFyo",
+        "title": "Phone insurance concept",
+        "caption": "Phone insurance concept film"
+      }
+    ]
+  },
+  {
+    "id": "artstation-playing-house",
+    "title": "EP cover artwork for Playing House",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-playing-house-01.webp",
+    "imageAlt": "Playing House EP cover artwork",
+    "imageCaption": "Playing House EP cover artwork",
+    "wideImage": false,
+    "description": "EP artwork for indie pop band Playing House, inspired by anxiety houses in flood-prone areas.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/821ER"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-playing-house-01.webp",
+        "alt": "Playing House EP cover artwork",
+        "caption": "Playing House EP cover artwork",
+        "width": 1800,
+        "height": 655
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-playing-house-02.gif",
+        "alt": "Animated sequence of design iterations",
+        "caption": "Animated sequence of design iterations",
+        "width": 500,
+        "height": 500
+      }
+    ]
+  },
+  {
+    "id": "artstation-office",
+    "title": "Office",
+    "selected": false,
+    "categories": [
+      "3d"
+    ],
+    "image": "images/artstation/artstation-office-01.webp",
+    "imageAlt": "Office scene",
+    "imageCaption": "Office scene",
+    "wideImage": false,
+    "description": "An experiment in creating varied characters from one reusable base model, using image-based skins.",
+    "body": "",
+    "metrics": "",
+    "technologies": [],
+    "details": [],
+    "links": [
+      {
+        "label": "View on ArtStation",
+        "url": "https://hannahmccall.artstation.com/projects/4WyBL"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-office-01.webp",
+        "alt": "Office scene",
+        "caption": "Office scene",
+        "width": 1800,
+        "height": 1800
+      },
+      {
+        "type": "image",
+        "src": "images/artstation/artstation-office-02.webp",
+        "alt": "Character skins used in the final scene",
+        "caption": "Character skins used in the final scene",
+        "width": 1281,
+        "height": 1028
+      }
+    ]
+  }
+]

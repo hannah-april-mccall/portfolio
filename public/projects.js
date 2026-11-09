@@ -340,6 +340,8 @@
       for (const link of project.links) {
         const a = element('a', '', `${link.label} ↗`);
         a.href = link.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
         links.append(a);
       }
       article.append(links);

@@ -1,128 +1,83 @@
 [
   {
-    "id": "caption-extension",
-    "title": "Caption creation extension",
+    "id": "beat-marker-for-blender",
+    "title": "Beat Marker for Blender",
     "selected": true,
-    "categories": [
-      "ai-automations",
-      "workflow-tooling"
-    ],
-    "image": "images/caption-placeholder.png",
-    "imageAlt": "Illustrative caption editor with cyan and magenta captions over a mountain scene",
-    "imageCaption": "Concept image · AI-generated placeholder",
-    "wideImage": false,
-    "description": "From transcription to client-ready captions, in over 20 styles.",
-    "body": "",
-    "metrics": "10,000+ assets · Up to 95% less manual work",
-    "technologies": [
-      "JavaScript",
-      "Adobe CEP",
-      "ElevenLabs",
-      "n8n"
-    ],
-    "details": [
-      {
-        "heading": "The problem",
-        "text": "Creative teams needed to produce captions in a growing range of client styles, without repeating the same manual setup for every asset."
-      },
-      {
-        "heading": "What I built",
-        "text": "An After Effects extension combining ElevenLabs transcription and n8n workflow proofing, with tools for editing, animating and colouring captions. The extension has supported over 10,000 assets and enabled around 20 times the output capacity."
-      },
-      {
-        "heading": "Making it adaptable",
-        "text": "I designed the latest version around centrally stored style information. New client styles, including complex effects and animations, could be introduced without users constantly reinstalling the tool."
-      },
-      {
-        "heading": "Working around a technical limit",
-        "text": "After Effects provides the bounding box for a whole text block, rather than the individual line widths needed for caption backers. I devised a recursive binary-search approach to find text boundaries on each frame, supporting individual line measurements and word-by-word animation."
-      }
-    ],
-    "links": []
-  },
-  {
-    "id": "reframing-pipeline",
-    "title": "Automated reframing pipeline",
-    "selected": true,
-    "categories": [
-      "ai-automations",
-      "workflow-tooling"
-    ],
-    "image": "images/reframe-placeholder.png",
-    "imageAlt": "Illustrative cyan and magenta artwork shown in landscape, square and portrait formats",
-    "imageCaption": "Concept image · AI-generated placeholder",
-    "wideImage": false,
-    "description": "Turning client graphics into production-ready assets.",
+    "categories": ["workflow-tooling"],
+    "description": "Editing to the beat, made easy. Automatically align cuts to the beat!",
     "body": "",
     "metrics": "",
-    "technologies": [
-      "Python",
-      "AI workflows",
-      "Automation"
-    ],
-    "details": [
-      {
-        "heading": "The workflow",
-        "text": "I built a skill and script pipeline that automated the construction of reframed assets with client-provided graphics."
-      },
-      {
-        "heading": "The aim",
-        "text": "Reduce repetitive production work while accommodating the different formats required for delivery, including square, portrait and 4:5 assets."
-      }
-    ],
-    "links": []
-  },
-  {
-    "id": "vfx-post-production",
-    "title": "VFX and post-production",
-    "selected": true,
-    "categories": [
-      "3d",
-      "vfx"
-    ],
-    "image": "images/vfx-placeholder.png",
-    "imageAlt": "Illustrative stone ring and floating spheres illuminated in cyan and magenta",
-    "imageCaption": "Concept image · AI-generated placeholder, not portfolio work",
-    "wideImage": true,
-    "description": "Compositing, animation and production experience.",
-    "body": "Over 14 years across media production, from VFX and editing to colour grading, technical management and delivery.",
-    "metrics": "",
-    "technologies": [
-      "After Effects",
-      "Blender",
-      "Production pipelines"
-    ],
+    "technologies": ["Python"],
     "details": [],
-    "links": [
+    "links": [{
+      "label": "View on GitHub",
+      "url": "https://github.com/hannah-april-mccall/beat-marker-blender"
+    }],
+    "media": [
       {
-        "label": "Watch my showreel",
-        "url": "https://youtu.be/v5lc6JCKFyw"
+        "type": "video",
+        "src": "images/Beat Marker Demo Vid0001-2150.mp4",
+        "title": "Beat Marker for Blender demonstration",
+        "caption": ""
       },
       {
-        "label": "Explore ArtStation",
-        "url": "https://hannahmccall.artstation.com/projects"
+        "type": "image",
+        "src": "images/projects/Blender - Overview.png",
+        "alt": "Overview of Blender interface with Beat Marker tool enabled",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "src": "images/projects/Blender - Beat controls close-up.png",
+        "alt": "Beat marker control panel close up",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "src": "images/projects/Blender - Alignment preview.png",
+        "alt": "Example of timeline preview of reframe times",
+        "caption": ""
       }
     ]
   },
   {
-    "id": "interactive-p5-sketch",
-    "title": "Interactive p5.js demo",
-    "selected": false,
-    "categories": [],
-    "description": "A sample interactive p5.js sketch — included to demonstrate embedded canvases.",
-    "technologies": [
-      "JavaScript",
-      "p5.js"
-    ],
-    "maxHeight": "min(520px, 65svh)",
+    "id": "beat-marker-for-premiere",
+    "title": "Beat Marker for Premiere Pro",
+    "selected": true,
+    "categories": ["workflow-tooling"],
+    "description": "Editing to the beat, made easy. Automatically align cuts to the beat!",
+    "body": "",
+    "metrics": "",
+    "technologies": ["Python"],
+    "details": [],
+    "links": [{
+      "label": "View on GitHub",
+      "url": "https://github.com/hannah-april-mccall/beat-marker-premiere"
+    }],
     "media": [
       {
-        "type": "p5",
-        "src": "sketches/demo/index.html",
-        "title": "Interactive p5.js demo",
-        "aspectRatio": "4/3",
-        "maxHeight": 450,
-        "caption": "Sample sketch — replace this with your own work."
+        "type": "image",
+        "src": "images/projects/Premiere - Overview.png",
+        "alt": "Example of timeline preview of reframe times",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "src": "images/projects/Premiere - Alignment preview.png",
+        "alt": "Example of timeline preview of reframe times",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "src": "images/projects/Premiere - Alignment controls close-up.png",
+        "alt": "Example of timeline preview of reframe times",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "src": "images/projects/Premiere - Trim and stretch options.png",
+        "alt": "Example of timeline preview of reframe times",
+        "caption": ""
       }
     ]
   },
@@ -188,50 +143,9 @@
     ]
   },
   {
-    "id": "artstation-penguin",
-    "title": "Penguin",
-    "selected": false,
-    "categories": [
-      "3d"
-    ],
-    "image": "images/artstation/artstation-penguin-01.webp",
-    "imageAlt": "Penguin render",
-    "imageCaption": "Penguin render",
-    "wideImage": false,
-    "description": "A render for a weekly colour challenge, using cool grey.",
-    "body": "",
-    "metrics": "",
-    "technologies": [],
-    "details": [],
-    "links": [
-      {
-        "label": "View on ArtStation",
-        "url": "https://hannahmccall.artstation.com/projects/naWbO"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "images/artstation/artstation-penguin-01.webp",
-        "alt": "Penguin render",
-        "caption": "Penguin render",
-        "width": 1800,
-        "height": 1013
-      },
-      {
-        "type": "image",
-        "src": "images/artstation/artstation-penguin-02.webp",
-        "alt": "Work-in-progress strip",
-        "caption": "Work-in-progress strip",
-        "width": 396,
-        "height": 1800
-      }
-    ]
-  },
-  {
     "id": "artstation-p9-headphones",
     "title": "Bowers and Wilkins P9 Signature",
-    "selected": false,
+    "selected": true,
     "categories": [
       "3d"
     ],
@@ -880,88 +794,6 @@
         "videoId": "CFsXjvUaFyo",
         "title": "Phone insurance concept",
         "caption": "Phone insurance concept film"
-      }
-    ]
-  },
-  {
-    "id": "artstation-playing-house",
-    "title": "EP cover artwork for Playing House",
-    "selected": false,
-    "categories": [
-      "3d"
-    ],
-    "image": "images/artstation/artstation-playing-house-01.webp",
-    "imageAlt": "Playing House EP cover artwork",
-    "imageCaption": "Playing House EP cover artwork",
-    "wideImage": false,
-    "description": "EP artwork for indie pop band Playing House, inspired by anxiety houses in flood-prone areas.",
-    "body": "",
-    "metrics": "",
-    "technologies": [],
-    "details": [],
-    "links": [
-      {
-        "label": "View on ArtStation",
-        "url": "https://hannahmccall.artstation.com/projects/821ER"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "images/artstation/artstation-playing-house-01.webp",
-        "alt": "Playing House EP cover artwork",
-        "caption": "Playing House EP cover artwork",
-        "width": 1800,
-        "height": 655
-      },
-      {
-        "type": "image",
-        "src": "images/artstation/artstation-playing-house-02.gif",
-        "alt": "Animated sequence of design iterations",
-        "caption": "Animated sequence of design iterations",
-        "width": 500,
-        "height": 500
-      }
-    ]
-  },
-  {
-    "id": "artstation-office",
-    "title": "Office",
-    "selected": false,
-    "categories": [
-      "3d"
-    ],
-    "image": "images/artstation/artstation-office-01.webp",
-    "imageAlt": "Office scene",
-    "imageCaption": "Office scene",
-    "wideImage": false,
-    "description": "An experiment in creating varied characters from one reusable base model, using image-based skins.",
-    "body": "",
-    "metrics": "",
-    "technologies": [],
-    "details": [],
-    "links": [
-      {
-        "label": "View on ArtStation",
-        "url": "https://hannahmccall.artstation.com/projects/4WyBL"
-      }
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "images/artstation/artstation-office-01.webp",
-        "alt": "Office scene",
-        "caption": "Office scene",
-        "width": 1800,
-        "height": 1800
-      },
-      {
-        "type": "image",
-        "src": "images/artstation/artstation-office-02.webp",
-        "alt": "Character skins used in the final scene",
-        "caption": "Character skins used in the final scene",
-        "width": 1281,
-        "height": 1028
       }
     ]
   }
